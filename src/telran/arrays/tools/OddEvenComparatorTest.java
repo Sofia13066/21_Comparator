@@ -20,6 +20,6 @@ public class OddEvenComparatorTest {
     @Test
     void testSortArray() {
         System.out.println("Test sortArray");
-		OddEvenComparator.sortArray(array, null);
+		OddEvenComparator.sortArray(array, (i1, i2) -> (i1-i2)); //fail
     }
 }
